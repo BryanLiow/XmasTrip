@@ -24,8 +24,13 @@
         margin-bottom: 50px;
     }
     
+    .content h2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
     #contact {
-        margin-top: 150px;
+        margin-top: 145px;
     }
     
     #contact h2 {
@@ -108,12 +113,21 @@
     .header-area {
         position: relative;
         height: 100vh;
-        background-image: url("../dist/img/ChristmasMarket.jpeg");
+        background-image: url("/img/ChristmasMarket.jpeg");
         opacity: 0.85;
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repear;
         background-size: cover;
+    }
+    
+    .row {
+        display: flex;
+    }
+    
+    .column {
+        flex: 33.33%;
+        padding: 5px;
     }
     
     .banner {
