@@ -114,7 +114,6 @@
         position: relative;
         height: 100vh;
         background-image: url("/img/ChristmasMarket.jpeg");
-        opacity: 0.85;
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repear;
