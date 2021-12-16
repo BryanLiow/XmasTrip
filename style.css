@@ -24,9 +24,15 @@
         margin-bottom: 50px;
     }
     
-    .content h2 {
+    .content-index h2 {
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+    
+    .img-car {
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 2px;
     }
     
     #contact {
@@ -110,9 +116,19 @@
         background-color: rgba(0, 0, 0, .3);
     }
     
-    .header-area {
+    .header-area-index {
         position: relative;
         height: 100vh;
+        background-image: url("/img/ChristmasMarket.jpeg");
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repear;
+        background-size: cover;
+    }
+    
+    .header-area-rental {
+        position: relative;
+        height: 60px;
         background-image: url("/img/ChristmasMarket.jpeg");
         background-attachment: fixed;
         background-position: center center;
@@ -277,6 +293,10 @@
     
     .navbar.fixed-top.navbar-dark .navbar-nav .nav-link::after {
         background-color: #c0ca33;
+    }
+    
+    .content-index {
+        padding: 120px 0;
     }
     
     .content {
