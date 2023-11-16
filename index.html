@@ -1,104 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Christmas Trip 2021</title>
-    <link rel="shortcut icon" href="/img/logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
-    <link rel="stylesheet" href="./style.css">
-
-</head>
-
-<body>
+    <link rel="shortcut icon" href="/img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <header class="header-area-index overlay">
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container">
-                <a href="/index.html" class="navbar-brand"><img src="/img/logo.png" height="50" style="object-fit: cover;margin-right: 20px;;">Christmas Trip</a>
-
-                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-					<span class="menu-icon-bar"></span>
-					<span class="menu-icon-bar"></span>
-					<span class="menu-icon-bar"></span>
-				</button>
-
-                <div id="main-nav" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li><a href="#" class="nav-item nav-link active">首页</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="nav-item nav-link" data-toggle="dropdown">日期</a>
-                            <div class="dropdown-menu">
-                                <a href="/day-one.html" class="dropdown-item">第1天&nbsp;&nbsp;18/21(星期六)</a>
-                                <a href="/day-two.html" class="dropdown-item">第2天&nbsp;&nbsp;19/21(星期日)</a>
-                                <a href="/day-three.html" class="dropdown-item">第3天&nbsp;&nbsp;20/21(星期一)</a>
-                            </div>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="nav-item nav-link" data-toggle="dropdown">地点</a>
-                            <div class="dropdown-menu">
-                                <a href="/galway.html" class="dropdown-item">Galway</a>
-                                <a href="/sligo.html" class="dropdown-item">Sligo</a>
-                            </div>
-                        </li>
-                        <li><a href="/car-rental.html" class="nav-item nav-link">租车</a></li>
-                    </ul>
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+          <a href="/index.html" class="navbar-brand">
+            <img
+              src="/img/logo.png"
+              alt="Christmas Trip Logo"
+              height="50"
+              class="logo-img"
+            />
+            Christmas Trip
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#main-nav"
+          >
+            <span class="menu-icon-bar"></span>
+            <span class="menu-icon-bar"></span>
+            <span class="menu-icon-bar"></span>
+          </button>
+          <div id="main-nav" class="collapse navbar-collapse">
+            <!-- Navigation links -->
+            <ul class="navbar-nav ml-auto">
+              <li><a href="#" class="nav-item nav-link active">首页</a></li>
+              <li class="dropdown">
+                <a href="#" class="nav-item nav-link" data-toggle="dropdown"
+                  >日期</a
+                >
+                <div class="dropdown-menu">
+                  <a href="/day-one.html" class="dropdown-item"
+                    >第1天&nbsp;&nbsp;18/21(星期六)</a
+                  >
+                  <a href="/day-two.html" class="dropdown-item"
+                    >第2天&nbsp;&nbsp;19/21(星期日)</a
+                  >
+                  <a href="/day-three.html" class="dropdown-item"
+                    >第3天&nbsp;&nbsp;20/21(星期一)</a
+                  >
                 </div>
-            </div>
-        </nav>
-
-        <div class="banner">
-            <div class="container">
-                <h1>说走就走的旅行 <br>Sligo - Galway</h1>
-                <p>We travel, initially, to lose ourselves; and we travel, next to find ourselves. <br>– Pico Iyer</p>
-                <a href="#content" class="button button-primary">我们</a>
-            </div>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="nav-item nav-link" data-toggle="dropdown"
+                  >地点</a
+                >
+                <div class="dropdown-menu">
+                  <a href="/galway.html" class="dropdown-item">Galway</a>
+                  <a href="/sligo.html" class="dropdown-item">Sligo</a>
+                </div>
+              </li>
+              <li>
+                <a href="/car-rental.html" class="nav-item nav-link">租车</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+      <div class="banner">
+        <div class="container">
+          <h1>说走就走的旅行 <br />Sligo - Galway</h1>
+          <p>
+            We travel, initially, to lose ourselves; and we travel, next to find
+            ourselves. <br />– Pico Iyer
+          </p>
+          <a href="#content" class="button button-primary">我们</a>
+        </div>
+      </div>
     </header>
 
     <main>
-        <section id="content" class="content">
-            <h2 class="text-center">我们</h2> <br><br>
-            <div class="container">
-                <div class="row">
-                    <div class="column">
-                        <a href="#demo3" data-toggle="collapse">
-                            <img src="/img/bryan_profile_pic.JPG" class="img-circle person img-center" alt="Bryan" width="255" height="255">
-                        </a>
-                        <br>
-                        <p class="text-center"><strong>布莱恩</strong></p><br>
-                    </div>
-                    <div class="column">
-                        <a href="#demo3" data-toggle="collapse">
-                            <img src="/img/ivy_profile_pic.JPG" class="img-circle person img-center" alt="Ivy" width="255" height="255">
-                        </a>
-                        <br>
-                        <p class="text-center"><strong>艾薇</strong></p><br>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div id="contact" class="container">
-                        <h2><strong>有问题就call我</strong></h2>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <p><span class="glyphicon glyphicon-map-marker"></span>Dundalk, IE</p>
-                                <p><span class="glyphicon glyphicon-phone"></span>Phone: +353 838742032</p>
-                                <p><span class="glyphicon glyphicon-envelope"></span>Email: bryan.liow.zy@gmail.com</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+      <section id="content" class="content">
+        <div class="container">
+          <div class="title-container">
+            <h2 class="text-center section-title">我们</h2>
+          </div>
+          <div class="profile-section">
+            <div class="row">
+              <div class="column">
+                <a href="#demo3" data-toggle="collapse">
+                  <img
+                    src="/img/bryan_profile_pic.JPG"
+                    class="img-circle person img-center"
+                    alt="Bryan"
+                    width="255"
+                    height="255"
+                  />
+                </a>
+                <br />
+                <p class="text-center"><strong>布莱恩</strong></p>
+                <br />
+              </div>
+              <div class="column">
+                <a href="#demo3" data-toggle="collapse">
+                  <img
+                    src="/img/ivy_profile_pic.JPG"
+                    class="img-circle person img-center"
+                    alt="Ivy"
+                    width="255"
+                    height="255"
+                  />
+                </a>
+                <br />
+                <p class="text-center"><strong>艾薇</strong></p>
+                <br />
+              </div>
             </div>
-        </section>
+          </div>
+
+          <div class="contact-section mt-5">
+            <div id="contact" class="container">
+              <h2 class="text-center"><strong>有问题就call我</strong></h2>
+              <p>
+                <span class="glyphicon glyphicon-map-marker"></span
+                ><strong>Dundalk, IE</strong>
+              </p>
+              <p>
+                <span class="glyphicon glyphicon-phone"></span
+                ><strong>Phone:</strong> +353 838742032
+              </p>
+              <p>
+                <span class="glyphicon glyphicon-envelope"></span
+                ><strong>Email:</strong>
+                bryan.liow.zy@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <!-- partial -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="./script.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-</body>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
